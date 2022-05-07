@@ -1,0 +1,83 @@
+body{
+	
+	background-color: #429895;
+	font-family: monospace;
+	text-align: center;;
+	font-size: 1.5em;
+	position: relative; 
+	height: 100%;
+}
+
+h2{
+	font-family: OCR A Std, monospace;
+    color: white;
+	padding-bottom: 30px;
+	background-color: #000000;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.buttons{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}	
+
+.group{
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+img{
+
+	padding: 20px;
+	height:150px;
+	width: 150px;
+	
+	
+}
+
+/* img:hover{
+transform: scale(1.6);
+transition: all 1s;
+
+} */
+#rock:hover{
+	transform: scale(1.2);
+	transition: all .5s;
+}
+
+#paper:hover{
+	transform: scale(1.2);
+	transition: all .5s;
+}
+
+#scissors:hover{
+	transform: scale(1.2);
+	transition: all .5s;
+}
+
+#spock:hover{
+	transform: scale(1.2);
+	transition: all .5s;
+}
+
+#lizard:hover{
+	transform: scale(1.2);
+	transition: all .5s;
+}
+
+#button{
+	position: absolute;
+	bottom:15%;
+	transition: ;
+}
+
+/* #lizard{
+	position: absolute;
+	bottom:-10%;
+} */
+
