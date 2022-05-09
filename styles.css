@@ -6,6 +6,42 @@ body{
 	font-size: 1.5em;
 	position: relative; 
 	height: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.score-board {
+	margin: 20px auto;
+	border: 3px solid white;
+	border-radius: 4px;
+	text-align: center;
+	width: 200px;
+	color: white;
+	font-size: 46px;
+	padding: 15px 20px;
+	font-family: sans-serif;
+	position: relative;
+}
+
+.badge {
+	background: blue;
+	color: white;
+	font-size: 14px;
+	padding: 2px 10px;
+	font-family: sans-serif;
+}
+
+#user-label {
+	position: absolute;
+	top:30px;
+	left: -25px;
+}
+
+#computer-label {
+	position: absolute;
+	top: 30px;
+	right: -30px;
 }
 
 h2{
@@ -47,27 +83,27 @@ transition: all 1s;
 } */
 #rock:hover{
 	transform: scale(1.2);
-	transition: all .5s;
+	transition: all .3s;
 }
 
 #paper:hover{
 	transform: scale(1.2);
-	transition: all .5s;
+	transition: all .3s;
 }
 
 #scissors:hover{
 	transform: scale(1.2);
-	transition: all .5s;
+	transition: all .3s;
 }
 
 #spock:hover{
 	transform: scale(1.2);
-	transition: all .5s;
+	transition: all .3s;
 }
 
 #lizard:hover{
 	transform: scale(1.2);
-	transition: all .5s;
+	transition: all .3s;
 }
 
 #button{
